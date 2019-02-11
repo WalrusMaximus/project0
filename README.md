@@ -1,4 +1,4 @@
-# project0
+# project0 - WalrusMaximus Portfolio
 
 Website created for the WDI 51 Class by Matthew Freeland.
 
@@ -23,17 +23,18 @@ about, I opted instead to precode them to make styling and delivery easier.
 #### Issues and Bugs
 
 There are a few lingering problems with the website. 
-    1 - If you scale down to responsive smaller screen and click the hamburger menu the
-    nav or header will be removed permanently and need to be refreshed. This can likely
-    be resolved by changing the display/hide method to use classes instead of toggle.
+    
+If you scale down to responsive smaller screen and click the hamburger menu the
+nav or header will be removed permanently and need to be refreshed. This can likely
+be resolved by changing the display/hide method to use classes instead of toggle.
 
-    2 - The contact form doesn't actually submit any emails. I haven't taken apart
-    the form to find out how to complete it.
+The contact form doesn't actually submit any emails. I haven't taken apart
+the form to find out how to complete it.
 
-    3 - If you click on one of the image radio buttons on the photo carousel while the
-    image is transitioning, it will load 2 images and quickly resolve it, but, it looks really dumb.
+If you click on one of the image radio buttons on the photo carousel while the
+image is transitioning, it will load 2 images and quickly resolve it, but, it looks really dumb.
 
-    4 - the code for the photo carousel is extremely messy and repetitive, it needs to be rebuilt with object arrays instead of referencing static item IDs.
+the code for the photo carousel is extremely messy and repetitive, it needs to be rebuilt with object arrays instead of referencing static item IDs.
 
 #### Triumps
 
@@ -42,3 +43,8 @@ I made the photo carousels and testimonials work. That was extremely difficult e
 I am particularly proud of the photo carousel, it was a challenge to get it to function correctly, but, with some pretty light code it works.
 
 ![](readme/photoCarousel.png)
+
+#### Webhosting
+
+I hosted the page on a free hosting service, the url is:
+https://walrusmaximus.000webhostapp.com/index.html
