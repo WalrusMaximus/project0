@@ -47,4 +47,4 @@ I am particularly proud of the photo carousel, it was a challenge to get it to f
 #### Webhosting
 
 I hosted the page on a free hosting service, the url is:
-https://walrusmaximus.000webhostapp.com/index.html
+https://walrusmaximus.github.io/project0/
