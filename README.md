@@ -2,10 +2,10 @@
 
 Website created for the WDI 51 Class by Matthew Freeland.
 
-###Technology Stack:
+#Technology Stack:
 Built using HTML, CSS, and Vanilla Javascript with JQuery 3.1.1.
 
-###Process:
+#Process:
 The highlevel approach to this project was to frame out the HTML first and foremost. 
 I knew that I needed to break into 4 general sections with a header and footer.
 I laid out the HTML semantically and then set my css all to margin0 with black borders
@@ -18,22 +18,22 @@ concepts for the carousels with the intent to build them from DOM manipulation r
 than pre-coding them as HTML, but, since scalability wasn't really a factor to worry
 about, I opted instead to precode them to make styling and delivery easier.
 
-###Existing Problems:
+#Existing Problems:
 There are a few lingering problems with the website. 
-    1. If you scale down to responsive smaller screen and click the hamburger menu the
+    1 - If you scale down to responsive smaller screen and click the hamburger menu the
     nav or header will be removed permanently and need to be refreshed. This can likely
     be resolved by changing the display/hide method to use classes instead of toggle.
 
-    2. The contact form doesn't actually submit any emails. I haven't taken apart
+    2 - The contact form doesn't actually submit any emails. I haven't taken apart
     the form to find out how to complete it.
 
-    3. If you click on one of the image radio buttons on the photo carousel while the
+    3 - If you click on one of the image radio buttons on the photo carousel while the
     image is transitioning, it will load 2 images and quickly resolve it, but, it looks really dumb.
 
-    4. the code for the photo carousel is extremely messy and repetitive, it needs to be rebuilt with object arrays instead of referencing static item IDs.
+    4 - the code for the photo carousel is extremely messy and repetitive, it needs to be rebuilt with object arrays instead of referencing static item IDs.
 
-###Triumphs:
+#Triumphs:
 I made the photo carousels and testimonials work. That was extremely difficult especially opting to eschew bootstrap. The framing part of the website went extremely smoothly for me, taking up only a tiny part of the development cycle, learning lessons from the storefront homework helped me better prepare myself for the process of building a site from scratch.
 
 I am particularly proud of the photo carousel, it was a challenge to get it to function correctly, but, with some pretty light code it works.
-~[](readme/photoCarousel.png)
+![](readme/photoCarousel.png)
