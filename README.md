@@ -36,7 +36,7 @@ image is transitioning, it will load 2 images and quickly resolve it, but, it lo
 
 the code for the photo carousel is extremely messy and repetitive, it needs to be rebuilt with object arrays instead of referencing static item IDs.
 
-#### Triumps
+#### Triumphs
 
 I made the photo carousels and testimonials work. That was extremely difficult especially opting to eschew bootstrap. The framing part of the website went extremely smoothly for me, taking up only a tiny part of the development cycle, learning lessons from the storefront homework helped me better prepare myself for the process of building a site from scratch.
 
