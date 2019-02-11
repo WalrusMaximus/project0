@@ -32,12 +32,12 @@ $(document).ready(function () {
         $('.nav').toggle("slide");
         $('#title').toggle("slide");
     })
-    $("#actualWalrus").mouseleave(function () { 
+    $("#actualWalrus").click(function () { 
         $('#actualWalrus').slideToggle()
         $('#walrus').slideToggle()        
     });
 
-    $("#walrus").mouseleave(function () { 
+    $("#walrus").click(function () { 
         $('#actualWalrus').slideToggle()
         $('#walrus').slideToggle()        
     });
@@ -57,6 +57,7 @@ $(document).ready(function () {
     },7000);
 
     photoNum = 1;
+    
     let photoCarousel = setInterval(function() {
         if (photoNum <= 4) {
             $('.photos').children().slideUp(625)
@@ -123,6 +124,11 @@ $(document).ready(function () {
 // Header Z position
 // The stupid quote carousel
 // Hamburger related issues
+// Webhosting, what a stupid chore
+// THE IMAGE CAROUSEL HOLY SHIT WHAT A NIGHTMARE
+// Comment form submitting me an email.. I gave up.
+// object mapping to build the html/dom manipulate images in and whatnot, I coded it instead
+
 
 
     // let photos = [
