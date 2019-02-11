@@ -2,10 +2,12 @@
 
 Website created for the WDI 51 Class by Matthew Freeland.
 
-#Technology Stack:
+#### Technology Stack
+
 Built using HTML, CSS, and Vanilla Javascript with JQuery 3.1.1.
 
-#Process:
+#### Process
+
 The highlevel approach to this project was to frame out the HTML first and foremost. 
 I knew that I needed to break into 4 general sections with a header and footer.
 I laid out the HTML semantically and then set my css all to margin0 with black borders
@@ -18,7 +20,8 @@ concepts for the carousels with the intent to build them from DOM manipulation r
 than pre-coding them as HTML, but, since scalability wasn't really a factor to worry
 about, I opted instead to precode them to make styling and delivery easier.
 
-#Existing Problems:
+#### Issues and Bugs
+
 There are a few lingering problems with the website. 
     1 - If you scale down to responsive smaller screen and click the hamburger menu the
     nav or header will be removed permanently and need to be refreshed. This can likely
@@ -32,8 +35,10 @@ There are a few lingering problems with the website.
 
     4 - the code for the photo carousel is extremely messy and repetitive, it needs to be rebuilt with object arrays instead of referencing static item IDs.
 
-#Triumphs:
+#### Triumps
+
 I made the photo carousels and testimonials work. That was extremely difficult especially opting to eschew bootstrap. The framing part of the website went extremely smoothly for me, taking up only a tiny part of the development cycle, learning lessons from the storefront homework helped me better prepare myself for the process of building a site from scratch.
 
 I am particularly proud of the photo carousel, it was a challenge to get it to function correctly, but, with some pretty light code it works.
+
 ![](readme/photoCarousel.png)
